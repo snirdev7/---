@@ -12,6 +12,8 @@ License URI: LICENSE
 Text Domain: live
 */
 @import "imports/_fonts.scss";
+@import "imports/responsive";
+@import "imports/components";
 
 body {
   font-family: "Heebo", sans-serif;

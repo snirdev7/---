@@ -92,6 +92,544 @@ Text Domain: live
   src: url("assets/fonts/heebo-v21-hebrew_latin-900.eot"); /* IE9 Compat Modes */
   src: url("assets/fonts/heebo-v21-hebrew_latin-900.eot?#iefix") format("embedded-opentype"), url("assets/fonts/heebo-v21-hebrew_latin-900.woff2") format("woff2"), url("assets/fonts/heebo-v21-hebrew_latin-900.woff") format("woff"), url("assets/fonts/heebo-v21-hebrew_latin-900.ttf") format("truetype"), url("assets/fonts/heebo-v21-hebrew_latin-900.svg#Heebo") format("svg"); /* Legacy iOS */
 }
+@media screen and (min-width: 992px) {
+  .site-header .main-navigation {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: auto;
+    top: auto;
+    right: auto;
+    left: auto;
+    padding: 0;
+    background-color: transparent;
+    transform: translateX(0);
+  }
+  .site-header .main-navigation > ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+  .site-header .main-navigation > ul > li {
+    height: 100%;
+  }
+  .site-header .main-navigation > ul > li > a {
+    border: none;
+    height: 100%;
+    display: block;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+  }
+  .site-header .main-navigation > ul > li ul {
+    max-height: none;
+    padding: 0;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    box-shadow: 0px 10px 10px 0px rgba(82, 82, 82, 0.1);
+    transition: opacity 0.35s ease;
+    opacity: 0;
+    pointer-events: none;
+    border-top: 1px solid #97c93c;
+    position: absolute;
+    background-color: #ffffff;
+    top: 100%;
+    min-width: 250px;
+    overflow: hidden;
+    border: none;
+  }
+  .site-header .main-navigation > ul > li ul li a {
+    font-size: 100%;
+    padding: 10px;
+    display: block;
+  }
+  .site-header .main-navigation > ul > li ul li a:hover {
+    background-color: rgba(240, 240, 240, 0.3);
+  }
+  .site-header .main-navigation > ul > li ul li a::before {
+    content: none;
+  }
+  .site-header .main-navigation > ul > li ul.menu-open {
+    max-height: none;
+  }
+  .site-header .main-navigation > ul > li:hover ul {
+    pointer-events: all;
+    opacity: 1;
+  }
+  > .site-header .main-navigation > ul > li.menu-item-has-children {
+    display: flex;
+    align-items: center;
+  }
+  > .site-header .main-navigation > ul > li.menu-item-has-children > a {
+    padding-left: 5px;
+  }
+  > .site-header .main-navigation > ul > li.menu-item-has-children > .sub-menu-arrow {
+    display: inline-block;
+    position: relative;
+    left: auto;
+    top: auto;
+  }
+  > .site-header .main-navigation > ul > li.menu-item-has-children > .sub-menu-arrow.flip {
+    transform: none;
+  }
+  .site-main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .hero-banner .carousel {
+    height: 250px;
+  }
+  .home-slogan {
+    padding: 40px 0;
+  }
+  .home-slogan p {
+    font-size: 48px;
+    line-height: 50px;
+  }
+  .home-products h2 {
+    font-size: 48px;
+  }
+  .home-products .box {
+    height: 100%;
+  }
+  .home-products .box h3 {
+    padding: 10px 0;
+  }
+  .home-products .box img {
+    max-height: 250px;
+    width: 100%;
+    height: 100%;
+  }
+  .home-recipes .wrap {
+    padding: 50px;
+  }
+  .home-recipes .wrap h2 {
+    font-size: 48px;
+  }
+  .home-recipes .wrap h3 {
+    font-size: 25px;
+    line-height: 36px;
+  }
+  .home-recipes .wrap form label {
+    margin-right: 10px;
+  }
+  .home-instagram h2 {
+    font-size: 48px;
+  }
+  .about-special-title {
+    padding: 50px 0;
+  }
+  .about-slogan p {
+    margin: 0 0 50px;
+    line-height: 33px;
+    font-size: 25px;
+  }
+  .about-content {
+    padding-top: 0;
+  }
+  .contact-main {
+    padding: 100px 0 81px;
+  }
+  .contact-main .info p {
+    font-size: 25px;
+  }
+  .top-bar form {
+    width: 50%;
+  }
+  .single-post-content {
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
+  .single-post-content header .share {
+    padding: 15px 0;
+  }
+  .single-post-content header .tags ul li {
+    width: auto;
+    margin: 0 5px;
+  }
+  .single-post-content header .tags ul li.tag-icon {
+    display: block;
+  }
+  .single-post-content header .tags ul li a {
+    font-size: 100%;
+  }
+  .single-post-content .entry-header img {
+    max-height: 420px;
+  }
+  .single-post-content .entry-content {
+    padding: 100px 0 31px;
+  }
+  .single-post-content .entry-content h2 {
+    font-size: 25px;
+  }
+  .single-post-content .entry-content .content {
+    max-width: 75%;
+  }
+  .single-post-content .entry-content .content ul li::marker,
+  .single-post-content .entry-content .content ol li::marker {
+    font-size: 23px;
+  }
+  .single-post-content .entry-content .content h3,
+  .single-post-content .entry-content .content h4,
+  .single-post-content .entry-content .content h5,
+  .single-post-content .entry-content .content h6 {
+    font-size: 25px;
+  }
+  .selling-points .region {
+    margin-bottom: 0;
+  }
+  .selling-points .region .info h3 {
+    font-size: 25px;
+  }
+  .recipe-content {
+    padding: 10px 0 50px;
+  }
+  .recipe-content h3 {
+    font-size: 25px;
+  }
+  .recipe-content .right-content .usage .text-pic {
+    display: flex;
+  }
+  .recipe-content .right-content .usage .text-pic img {
+    margin-left: 10px;
+  }
+  .recipe-content .right-content .usage .text-pic .text h4 {
+    font-size: 25px;
+  }
+  .recipe-content .right-content .usage .tags ul {
+    flex-wrap: nowrap;
+  }
+  .recipe-content .right-content .usage .tags ul li {
+    width: auto;
+    margin: 0 5px;
+  }
+  .recipe-content .right-content .usage .tags ul li.tag-icon {
+    display: block;
+  }
+  .recipe-content .right-content .usage .tags ul li span {
+    font-size: 100%;
+  }
+  .recipe-content .left-content .general-info {
+    padding: 10px 0;
+  }
+  .recipe-content .left-content .general-info .item.time {
+    border-left: 1px solid #346139;
+    border-right: 1px solid #346139;
+  }
+  .recipe-content .left-content .ingredients ul {
+    -moz-column-count: 2;
+         column-count: 2;
+  }
+  .all-recipes {
+    padding: 50px 0;
+  }
+  .all-recipes .box img {
+    width: 100%;
+  }
+  .product-content {
+    padding: 10px 0 50px;
+  }
+  .product-content h3 {
+    font-size: 25px;
+  }
+  .product-content .right-content {
+    margin-bottom: 0;
+  }
+  .product-content .right-content .more-info ul li {
+    font-size: 14px;
+  }
+  .product-content .right-content .more-info ul li img {
+    max-width: 100%;
+  }
+  .product-content .left-content .weight {
+    font-size: 25px;
+  }
+  .product-content .left-content .details table {
+    max-width: 80%;
+  }
+  .product-content .right-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .product-content .right-content .product-type {
+    margin-top: auto;
+  }
+  .product-content .right-content .product-type li {
+    font-size: 18px;
+  }
+  .wrap-products .card {
+    height: 100%;
+  }
+  .wrap-products .card .card-img img {
+    width: 100%;
+  }
+  .wrap-products .card .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .wrap-products .card .card-body h4 {
+    margin-top: auto;
+  }
+  .site-footer .widget {
+    margin-bottom: 0;
+    padding: 0 25px;
+    flex: 0 0 auto;
+    width: auto;
+  }
+  .site-footer .widget h3 {
+    font-size: 18px;
+  }
+  .site-footer .widget.no-title ul li a {
+    font-size: 18px;
+  }
+  .site-footer .footer-social {
+    flex: 0 0 auto;
+    width: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1040px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  .site-header .social-search {
+    display: flex;
+  }
+  .hero-banner .carousel {
+    height: 484px;
+  }
+  .home-recipes {
+    padding: 50px 0 0;
+  }
+  .home-recipes .home-recipes-pic {
+    margin-bottom: -50px;
+  }
+  .all-recipes {
+    padding: 0 0 81px;
+  }
+  .all-recipes .box {
+    height: 100%;
+  }
+  .all-recipes .box img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    max-height: 240px;
+    height: 100%;
+  }
+  .home-instagram {
+    margin-top: 150px;
+  }
+  .product-content .right-content {
+    padding-left: 45px;
+  }
+  .product-content .right-content .wrap-image {
+    padding: 15px 0 0;
+    text-align: center;
+  }
+  .product-content .right-content .wrap-image img {
+    max-width: 70%;
+  }
+  .product-content .right-content .more-info ul li {
+    font-size: 18px;
+  }
+  .product-content .left-content {
+    padding-right: 45px;
+    border-right: 1px solid #336138;
+  }
+  .contact-main .special-title {
+    margin-top: -20px;
+  }
+  .about-content h3,
+  .about-content h4,
+  .about-content h5,
+  .about-content h6 {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+}
+.hero-banner {
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.hero-banner.hero-banner-products {
+  background-image: url("assets/images/banner-tofu.jpg");
+}
+
+.before-header {
+  text-align: center;
+  background-color: #336138;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.25px;
+  color: #ffffff;
+  padding: 8px;
+}
+.before-header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.before-header a:hover {
+  text-decoration: underline;
+}
+
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+.special-title {
+  line-height: 1;
+}
+.special-title span {
+  padding: 10px 0;
+  position: relative;
+  display: inline-block;
+}
+.special-title span::before {
+  content: "";
+  width: 55px;
+  height: 2px;
+  background-color: #97c93d;
+  position: absolute;
+  bottom: 0;
+}
+.special-title.center span::before {
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.special-title.invert {
+  color: #ffffff;
+}
+.special-title.invert span::before {
+  background-color: #346139;
+}
+
+.hamburger {
+  z-index: 1;
+  padding: 5px;
+  display: inline-block;
+  cursor: pointer;
+  transition-property: opacity, filter;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  overflow: visible;
+}
+.hamburger.is-active .hamburger-inner {
+  transform: rotate(225deg);
+  transition-delay: 0.12s;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  background-color: #000000;
+}
+.hamburger.is-active .hamburger-inner::before {
+  top: 0;
+  opacity: 0;
+  transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out, background-color 0.12s ease-out;
+}
+.hamburger.is-active .hamburger-inner::after {
+  bottom: 0;
+  transform: rotate(-90deg);
+  transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.hamburger.is-active .hamburger-inner::before, .hamburger.is-active .hamburger-inner::after {
+  background-color: #000000;
+}
+.hamburger.is-active .hamburger-inner {
+  width: 30px;
+}
+
+.hamburger-box {
+  width: 30px;
+  height: 10px;
+  display: inline-block;
+  position: relative;
+}
+
+.hamburger-inner {
+  display: block;
+  top: 50%;
+  margin-top: -2px;
+  width: 30px;
+  height: 2px;
+  background-color: #000;
+  border-radius: 0;
+  position: absolute;
+  transition-property: transform, background-color;
+  transition-duration: 0.15s;
+  transition-timing-function: ease;
+}
+.hamburger-inner::before, .hamburger-inner::after {
+  width: 30px;
+  height: 2px;
+  background-color: #000;
+  border-radius: 0;
+  position: absolute;
+  transition-property: transform;
+  transition-duration: 0.15s;
+  transition-timing-function: ease;
+}
+.hamburger-inner::before, .hamburger-inner::after {
+  content: "";
+  display: block;
+}
+.hamburger-inner::before {
+  top: -8px;
+}
+.hamburger-inner::after {
+  bottom: -8px;
+}
+
+.hamburger--spin .hamburger-inner {
+  transition-duration: 0.22s;
+  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.hamburger--spin .hamburger-inner::before {
+  transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in, background-color 0.25s ease-in;
+}
+.hamburger--spin .hamburger-inner::after {
+  transition: bottom 0.1s 0.25s ease-in, background-color 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+@media screen and (min-width: 992px) {
+  .hero-banner {
+    height: 250px;
+  }
+  .hamburger {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero-banner {
+    height: 265px;
+  }
+  .hero-banner.hero-home-banner {
+    height: 484px;
+  }
+  .hero-banner.hero-banner-blog {
+    height: 484px;
+  }
+}
 body {
   font-family: "Heebo", sans-serif;
   color: #336138;
