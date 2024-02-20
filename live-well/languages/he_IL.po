@@ -1,0 +1,1261 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Etzem Hainyan\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/_s\n"
+"POT-Creation-Date: 2023-06-01 08:59+0300\n"
+"PO-Revision-Date: 2023-06-01 08:59+0300\n"
+"Last-Translator: Yaniv Mirel <yanivmirel@gmail.com>\n"
+"Language-Team: \n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==2 ? 1 : n>10 && n%10==0 ? "
+"2 : 3);\n"
+"X-Generator: Poedit 3.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_x;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: assets\n"
+"X-Poedit-SearchPathExcluded-2: js\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "אופס! העמוד לא נמצא"
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:30
+msgid "Most Used Categories"
+msgstr ""
+
+#: 404.php:48
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "תגובה אחת על \"%1$s\""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "אין אפשרות להוסיף תגובות."
+
+#: functions.php:55
+msgid "Primary"
+msgstr "ראשי"
+
+#: functions.php:128
+msgid "Sidebar"
+msgstr "סרגל צד"
+
+#: functions.php:130 functions.php:142 functions.php:153 functions.php:164
+#: functions.php:175 functions.php:186
+msgid "Add widgets here."
+msgstr "הוסף ווידג'טים כאן."
+
+#: functions.php:140
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:151
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:162
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:173
+msgid "Footer 4"
+msgstr ""
+
+#: functions.php:184
+msgid "Footer 5"
+msgstr ""
+
+#: functions.php:203
+msgid "minute"
+msgstr "דקה"
+
+#: functions.php:205
+msgid "minutes"
+msgstr "דקות"
+
+#: functions.php:307 functions.php:308
+msgid "General Settings"
+msgstr "הגדרות כלליות"
+
+#: header.php:83 page-templates/page-selling-points.php:20 single.php:23
+msgid "Search..."
+msgstr "חפש..."
+
+#: header.php:85
+msgid "Search"
+msgstr "חיפוש"
+
+#: inc/breadcrumbs.php:22 inc/breadcrumbs.php:92 inc/breadcrumbs.php:114
+msgid "Home"
+msgstr "ראשי"
+
+#: inc/breadcrumbs.php:27
+msgid "Liv Blog"
+msgstr "ליב בלוג"
+
+#: inc/breadcrumbs.php:37 inc/cpt.php:17 page-templates/page-recipes.php:5
+msgid "Recipes"
+msgstr "מתכונים"
+
+#: inc/breadcrumbs.php:48 inc/breadcrumbs.php:74
+#: page-templates/page-catalog.php:5
+msgid "Products Catalog"
+msgstr "קטלוג מוצרים"
+
+#: inc/breadcrumbs.php:61
+msgid "Category Name"
+msgstr "שם הקטגוריה"
+
+#: inc/cpt.php:6 inc/cpt.php:7 single-recipe.php:109
+msgid "recipe"
+msgstr "מתכון"
+
+#: inc/cpt.php:8 inc/cpt.php:9
+msgid "Add recipe"
+msgstr "הוספת מתכון"
+
+#: inc/cpt.php:10
+msgid "Edit recipe Item"
+msgstr "ערוך מתכון"
+
+#: inc/cpt.php:11
+msgid "New recipe Item"
+msgstr "מתכון חדש"
+
+#: inc/cpt.php:12
+msgid "View recipe Item"
+msgstr "צפה במתכון"
+
+#: inc/cpt.php:13
+msgid "Search recipe Item"
+msgstr "חפש מתכון"
+
+#: inc/cpt.php:14
+msgid "No recipe Item found"
+msgstr "לא נמצא מתכון"
+
+#: inc/cpt.php:15
+msgid "No recipe Item found in Trash"
+msgstr "לא נמצא מתכון באשפה"
+
+#: inc/cpt.php:16
+msgid "Parent recipe Item:"
+msgstr "מתכון הורה:"
+
+#: inc/cpt.php:35
+msgid "recipes"
+msgstr "מתכונים"
+
+#: inc/cpt.php:47 inc/cpt.php:48 inc/cpt.php:49
+msgid "recipe category"
+msgstr "קטגוריות מתכונים"
+
+#: inc/cpt.php:50
+msgid "All recipes categories"
+msgstr "כל קטגוריות המתכונים"
+
+#: inc/cpt.php:51
+msgid "Parent recipes categories"
+msgstr "קטגוריית מתכונים אב"
+
+#: inc/cpt.php:52
+msgid "Parent recipes categories:"
+msgstr "קטגוריית מתכונים אב"
+
+#: inc/cpt.php:53
+msgid "New recipes category"
+msgstr "קטגוריית מתכונים חדשה"
+
+#: inc/cpt.php:54
+msgid "Add New recipes category"
+msgstr "הוסף קטגוריית מתכונים חדשה"
+
+#: inc/cpt.php:55
+msgid "Edit recipes category"
+msgstr "עריכת קטגורית מתכונים"
+
+#: inc/cpt.php:56
+msgid "Update recipes category"
+msgstr "עדכון  קטגורית מתכונים"
+
+#: inc/cpt.php:57
+msgid "View recipes category"
+msgstr "צפיה בקטגורית מתכונים"
+
+#: inc/cpt.php:58 inc/cpt.php:136
+msgid "Separate items with commas"
+msgstr ""
+
+#: inc/cpt.php:60 inc/cpt.php:138
+msgid "Add or remove items"
+msgstr ""
+
+#: inc/cpt.php:61 inc/cpt.php:139
+msgid "Choose from the most used"
+msgstr ""
+
+#: inc/cpt.php:63 inc/cpt.php:141
+msgid "Popular Items"
+msgstr ""
+
+#: inc/cpt.php:64 inc/cpt.php:142
+msgid "Search Items"
+msgstr "חפש פריטים"
+
+#: inc/cpt.php:65 inc/cpt.php:143
+msgid "Not Found"
+msgstr "לא נמצא כלום"
+
+#: inc/cpt.php:84 inc/cpt.php:85 inc/cpt.php:113
+msgid "product"
+msgstr "מוצר"
+
+#: inc/cpt.php:86 inc/cpt.php:87
+msgid "Add product"
+msgstr "הוספת מוצר"
+
+#: inc/cpt.php:88
+msgid "Edit product Item"
+msgstr "עריכת מוצר"
+
+#: inc/cpt.php:89
+msgid "New product Item"
+msgstr "מוצר חדש"
+
+#: inc/cpt.php:90
+msgid "View product Item"
+msgstr "צפייה במוצר"
+
+#: inc/cpt.php:91
+msgid "Search product Item"
+msgstr "חיפוש מוצר"
+
+#: inc/cpt.php:92
+msgid "No product Item found"
+msgstr "לא נמצאו מוצרים"
+
+#: inc/cpt.php:93
+msgid "No product Item found in Trash"
+msgstr "לא נמצאו מוצרים באשפה"
+
+#: inc/cpt.php:94
+msgid "Parent product Item:"
+msgstr "פריט מוצר אב:"
+
+#: inc/cpt.php:95 inc/cpt.php:113 inc/cpt.php:153
+msgid "products"
+msgstr "מוצרים"
+
+#: inc/cpt.php:125 inc/cpt.php:126 inc/cpt.php:127
+msgid "product category"
+msgstr "קטגוריות מוצרים"
+
+#: inc/cpt.php:128
+msgid "All products categories"
+msgstr "כל קטגוריות המוצרים"
+
+#: inc/cpt.php:129
+msgid "Parent products categories"
+msgstr "קטגוריית מוצרים אב"
+
+#: inc/cpt.php:130
+msgid "Parent products categories:"
+msgstr "קטגוריית מוצרים אב"
+
+#: inc/cpt.php:131
+msgid "New products category"
+msgstr "קטגורית מוצרים חדשה"
+
+#: inc/cpt.php:132
+msgid "Add New products category"
+msgstr "הוספת קטגורית מוצרים חדשה"
+
+#: inc/cpt.php:133
+msgid "Edit products category"
+msgstr "עריכת קטגורית מוצרים"
+
+#: inc/cpt.php:134
+msgid "Update products category"
+msgstr "עדכון קטגורית מוצרים"
+
+#: inc/cpt.php:135
+msgid "View products category"
+msgstr "צפיה בקטגורית מוצרים"
+
+#: inc/template-tags.php:30
+#, php-format
+msgid "Posted on %s"
+msgstr "פורסם ב-%s"
+
+#: inc/template-tags.php:46
+#, php-format
+msgid "by %s"
+msgstr "על ידי %s"
+
+#: inc/template-tags.php:63 inc/template-tags.php:70
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:66
+#, php-format
+msgid "Posted in %1$s"
+msgstr "פורסם ב:  %1$s"
+
+#: inc/template-tags.php:73
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:83
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:100 template-parts/content-page.php:36
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "עריכה <span class=\"screen-reader-text\">%s</span>"
+
+#: page-templates/page-about.php:5
+msgid "About"
+msgstr "אודות"
+
+#: page-templates/page-blog.php:5
+msgid "Blog"
+msgstr "בלוג"
+
+#: page-templates/page-blog.php:59 template-parts/content.php:32
+msgid "read"
+msgstr "קריאה"
+
+#: page-templates/page-contact.php:5
+msgid "Contact"
+msgstr "צור קשר"
+
+#: page-templates/page-home.php:5
+msgid "Homepage"
+msgstr "דף הבית"
+
+#: page-templates/page-home.php:69
+msgid "By Product"
+msgstr "לפי מוצר"
+
+#: page-templates/page-home.php:87
+msgid "By Category"
+msgstr "לפי קטגוריה"
+
+#: page-templates/page-home.php:105
+msgid "Search Recipe"
+msgstr "חפש מתכון"
+
+#: page-templates/page-selling-points.php:5
+msgid "Selling Points"
+msgstr "נקודות מכירה"
+
+#: page-templates/page-selling-points.php:20
+msgid "Search for a city, region, or name..."
+msgstr "חפש עיר, אזור, או שם..."
+
+#: search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr "תוצאות חיפוש עבור: %s"
+
+#: single-product.php:85
+msgid "Rich Protein"
+msgstr "עשיר בחלבון"
+
+#: single-product.php:91
+msgid "No Preservatives"
+msgstr "ללא חומרים משמרים"
+
+#: single-product.php:97
+msgid "No Genetic Engineering"
+msgstr "ללא הנדסה גנטית"
+
+#: single-product.php:103 single-recipe.php:88 template-parts/content.php:62
+msgid "Share"
+msgstr "שתפו"
+
+#: single-product.php:119
+msgid "To Recipes"
+msgstr "למתכונים"
+
+#: single-product.php:127 taxonomy-product-category.php:81
+#: taxonomy-product-category.php:101 taxonomy-recipe-category.php:83
+msgid "Natural"
+msgstr "טִבעִי"
+
+#: single-product.php:130 taxonomy-product-category.php:84
+#: taxonomy-product-category.php:102 taxonomy-recipe-category.php:84
+msgid "Organic"
+msgstr "אורגני"
+
+#: single-product.php:133 taxonomy-product-category.php:87
+#: taxonomy-product-category.php:103 taxonomy-recipe-category.php:85
+msgid "Vegan"
+msgstr "טבעוני"
+
+#: single-product.php:142
+msgid "Grams"
+msgstr "גרם"
+
+#: single-product.php:147
+msgid "Component"
+msgstr "רכיבים"
+
+#: single-product.php:153
+msgid "Instructions"
+msgstr "הוראות אחסון והמלצות"
+
+#: single-product.php:160
+msgid "Allergen Information"
+msgstr "מידע אלרגני"
+
+#: single-product.php:169
+msgid "Nutritional value"
+msgstr "סימון תזונתי"
+
+#: single-product.php:170
+msgid "In 100 grams of product"
+msgstr "ב־100 גרם מוצר"
+
+#: single-product.php:174
+msgid "Energy (calories)"
+msgstr "אנרגיה (קלוריות)"
+
+#: single-product.php:180
+msgid "Total fats (grams) of which:"
+msgstr "סך השומנים (גרם) מתוכם:"
+
+#: single-product.php:186
+msgid "Saturated fatty acids (grams)"
+msgstr " חומצות שומן רוויות (גרם)"
+
+#: single-product.php:192
+msgid "Trans fatty acids (grams)"
+msgstr "חומצות שומן טראנס (גרם)"
+
+#: single-product.php:198
+msgid "Cholesterol (mg)"
+msgstr "כולסטרול (מ\"ג)"
+
+#: single-product.php:204
+msgid "sodium (mg)"
+msgstr "נתרן (מ\"ג)"
+
+#: single-product.php:210
+msgid "Total carbohydrates (grams) from:"
+msgstr "סך הפחמימות (גרם) מתוכן:"
+
+#: single-product.php:216
+msgid "Sugars (grams)"
+msgstr "סוכרים (גרם)"
+
+#: single-product.php:222
+msgid "Dietary fiber (grams)"
+msgstr "סיבים תזונתיים (גרם)"
+
+#: single-product.php:228
+msgid "Proteins (grams)"
+msgstr "חלבונים (גרם)"
+
+#: single-product.php:234
+msgid "Calcium (mg)"
+msgstr "סידן (מ\"ג)"
+
+#: single-product.php:240
+msgid "Iron"
+msgstr "ברזל"
+
+#: single-product.php:246
+msgid "Vitamin B12"
+msgstr "ויטמין B12"
+
+#: single-product.php:252
+msgid "Potassium"
+msgstr "אשלגן"
+
+#: single-product.php:261
+msgid "Kosher"
+msgstr "כשרות"
+
+#: single-recipe.php:47
+msgid "This recipe uses:"
+msgstr "במתכון הזה משתמשים ב:"
+
+#: single-recipe.php:117
+msgid "Quantity"
+msgstr "כמות"
+
+#: single-recipe.php:124
+msgid "Preperation Time"
+msgstr "זמן הכנה"
+
+#: single-recipe.php:131
+msgid "Cooking Time"
+msgstr "זמן בישול"
+
+#: single-recipe.php:137
+msgid "Ingredients"
+msgstr "מצרכים"
+
+#: single-recipe.php:152
+msgid "Preperation Process"
+msgstr "אופן הכנה"
+
+#: single.php:23
+msgid "sort by..."
+msgstr "מיין לפי..."
+
+#: taxonomy-product-category.php:77
+msgid "grams"
+msgstr "גרם"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "לא נמצא כלום"
+
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "מצטערים, אבל לא מצאנו את מה שחיפשת. יש לנסות שוב עם מילות חיפוש אחרות."
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:22
+msgid "Pages:"
+msgstr "עמודים:"
+
+#: template-parts/content.php:83
+msgid "Previous Article"
+msgstr "לכתבה הקודמת"
+
+#: template-parts/content.php:84
+msgid "Next Article"
+msgstr "לכתבה הבאה"
+
+#~ msgid "More Details"
+#~ msgstr "לעוד פרטים"
+
+#~ msgid "Print"
+#~ msgstr "להדפסה"
+
+#, php-format
+#~ msgid "Proudly powered by %s"
+#~ msgstr "בנוי על %s"
+
+#~ msgid "Primary Menu"
+#~ msgstr "תפריט ראשי"
+
+#~ msgid "Payment Method"
+#~ msgstr "אמצעי תשלום"
+
+#~ msgid "Add widgets."
+#~ msgstr "הוסף ווידג'טים."
+
+#~ msgid "SKU"
+#~ msgstr "מק\"ט"
+
+#~ msgid "Ben&#39;s Rating"
+#~ msgstr "הדירוג של בן"
+
+#~ msgid "No Rating Yet"
+#~ msgstr "אין דירוג עדיין"
+
+#~ msgid "Buy Now"
+#~ msgstr "קנה עכשיו"
+
+#~ msgid "Quick Payment"
+#~ msgstr "תשלום מהיר"
+
+#~ msgid "Quick Shipping"
+#~ msgstr "משלוח מהיר"
+
+#~ msgid "Secured Payment"
+#~ msgstr "תשלום מאובטח"
+
+#~ msgid "We Accept"
+#~ msgstr "אנו מכבדים"
+
+#~ msgid "Read More"
+#~ msgstr "קרא עוד"
+
+#~ msgid "Load more"
+#~ msgstr "טען עוד"
+
+#~ msgid "FAQ"
+#~ msgstr "שאלות ותשובות"
+
+#~ msgid "All Sales"
+#~ msgstr "כל המבצעים"
+
+#~ msgid "Sale"
+#~ msgstr "מבצע"
+
+#~ msgid "Manufacturer"
+#~ msgstr "יצרן"
+
+#~ msgid "Average rating"
+#~ msgstr "דירוג ממוצע"
+
+#~ msgid "Reviews"
+#~ msgstr "סקירות"
+
+#~ msgid "Rate Us"
+#~ msgstr "דרג אותנו"
+
+#~ msgid "Powered By"
+#~ msgstr "פיתוח"
+
+#~ msgid "footer-menu"
+#~ msgstr "תפריט פוטר"
+
+#~ msgid "Login"
+#~ msgstr "התחברות"
+
+#~ msgid "Updates"
+#~ msgstr "עדכונים"
+
+#~ msgid "Logout"
+#~ msgstr "התנתקות"
+
+#~ msgid "Assets"
+#~ msgstr "נכסים"
+
+#~ msgid "Market&#39;s Neighborhood"
+#~ msgstr "השכונות של המרקט"
+
+#~ msgid "The Market"
+#~ msgstr "המרקט"
+
+#~ msgid "Assets for sale"
+#~ msgstr "נכסים למכירה"
+
+#~ msgid "Region"
+#~ msgstr "אזור"
+
+#~ msgid "Add Region"
+#~ msgstr "הוספת אזור"
+
+#~ msgid "Regions"
+#~ msgstr "איזורים"
+
+#~ msgid "Asset"
+#~ msgstr "נכס"
+
+#~ msgid "Add Asset"
+#~ msgstr "הוספת נכס"
+
+#~ msgid "Edit Asset Item"
+#~ msgstr "ערוך פריט נכס"
+
+#~ msgid "New Asset Item"
+#~ msgstr "הוספת נכס"
+
+#~ msgid "View Asset Item"
+#~ msgstr "צפה בנכס"
+
+#~ msgid "Search Asset Item"
+#~ msgstr "חפש פריט נכס"
+
+#~ msgid "No Asset Item found in Trash"
+#~ msgstr "לא נמצא פריט נכס באשפה"
+
+#~ msgid "Parent Asset Item:"
+#~ msgstr "פריט נכס אב:"
+
+#~ msgid "assets"
+#~ msgstr "נכסים"
+
+#~ msgid "Read Only?"
+#~ msgstr "לקריאה בלבד?"
+
+#~ msgid "Toggle to make the field disabled"
+#~ msgstr "החלף כדי להפוך את השדה לבלתי זמין"
+
+#~ msgid "City"
+#~ msgstr "עיר"
+
+#~ msgid "Neighborhood"
+#~ msgstr "שכונה"
+
+#~ msgid "Number of Rooms"
+#~ msgstr "מספר חדרים"
+
+#~ msgid "From"
+#~ msgstr "מ"
+
+#~ msgid "To"
+#~ msgstr "עד"
+
+#~ msgid "Find me a house"
+#~ msgstr "מצאו לי בית"
+
+#~ msgid "By"
+#~ msgstr "מאת"
+
+#~ msgid "Further Reading"
+#~ msgstr "להמשך קריאה"
+
+#~ msgid "next"
+#~ msgstr "הבא"
+
+#~ msgid "Dashboard Buyer"
+#~ msgstr "איזור אישי - קונה"
+
+#~ msgid "Welcome"
+#~ msgstr "ברוך/ה הבא/ה"
+
+#~ msgid "Favourite Properties"
+#~ msgstr "נכסים שאהבת"
+
+#~ msgid "Recently Viewed"
+#~ msgstr "נצפו לאחרונה"
+
+#~ msgid "Interesting Articles"
+#~ msgstr "אולי גם יעניין אותך"
+
+#~ msgid "Dashboard Seller"
+#~ msgstr "איזור אישי - מוכר"
+
+#~ msgid "Visited your asset the past week"
+#~ msgstr "בשבוע האחרון ביקרו בנכס שלך"
+
+#~ msgid "Interested People"
+#~ msgstr "מתעניינים"
+
+#~ msgid "My assets in the market"
+#~ msgstr "הנכסים שלי במרקט"
+
+#~ msgid "Download Blueprint"
+#~ msgstr "להורדת תוכנית הנכס"
+
+#~ msgid "Make an appointment"
+#~ msgstr "לקביעת פגישה"
+
+#~ msgid "About the asset"
+#~ msgstr "אודות הנכס"
+
+#~ msgid "Description about the asset"
+#~ msgstr "תיאור הנכס"
+
+#~ msgid "All Regions"
+#~ msgstr "לכל האיזורים"
+
+#~ msgid "I would like to see the asset"
+#~ msgstr "רוצה לראות את הנכס!"
+
+#~ msgid "All Assets"
+#~ msgstr "לכל הנכסים"
+
+#~ msgid "Asset Page"
+#~ msgstr "לעמוד הנכס"
+
+#~ msgid "Exclusive Agreement"
+#~ msgstr "הסכם בלעדיות"
+
+#~ msgid "Blueprint"
+#~ msgstr "תשריט דירה"
+
+#~ msgid "Summary"
+#~ msgstr "סיכום"
+
+#~ msgid "Find me in the market"
+#~ msgstr "איפה אני במרקט"
+
+#~ msgid "Homemarket Website"
+#~ msgstr "אתר הומרקט"
+
+#~ msgid "Yad 2"
+#~ msgstr "יד 2"
+
+#~ msgid "Madlan"
+#~ msgstr "מדלן"
+
+#~ msgid "Facebook"
+#~ msgstr "פייסבוק"
+
+#~ msgid "Instagram"
+#~ msgstr "אינסטגרם"
+
+#~ msgid "Feedback / objections from the beginning of marketing"
+#~ msgstr "פידבקים / התנגדויות מתחילת שיווק"
+
+#~ msgid "Rooms"
+#~ msgstr "חדרים"
+
+#~ msgid "Yes"
+#~ msgstr "כן"
+
+#~ msgid "No"
+#~ msgstr "לא"
+
+#~ msgid "Disabled?"
+#~ msgstr "מכובה?"
+
+#~ msgid "&copy; All rights reserved"
+#~ msgstr "&copy; כל הזכויות שמורות"
+
+#~ msgid "Read Less"
+#~ msgstr "קרא פחות"
+
+#~ msgid "Select Your Language"
+#~ msgstr "בחרו את השפה שלכם"
+
+#, fuzzy
+#~| msgid "Edit employee Item"
+#~ msgid "Edit book Item"
+#~ msgstr "עריכת פריט עובד"
+
+#, fuzzy
+#~| msgid "New employee Item"
+#~ msgid "New book Item"
+#~ msgstr "פריט עובד חדש"
+
+#, fuzzy
+#~| msgid "View employee Item"
+#~ msgid "View book Item"
+#~ msgstr "הצג פריט עובד"
+
+#, fuzzy
+#~| msgid "No employee Item found"
+#~ msgid "No book Item found"
+#~ msgstr "לא נמצא פריט עובד"
+
+#, fuzzy
+#~| msgid "No employee Item found in Trash"
+#~ msgid "No book Item found in Trash"
+#~ msgstr "לא נמצא פריט עובד באשפה אשפה"
+
+#, fuzzy
+#~| msgid "Parent employee Item:"
+#~ msgid "Parent book Item:"
+#~ msgstr "פריט עובד אב:"
+
+#, fuzzy
+#~| msgid "Edit candidate Item"
+#~ msgid "Edit therapist Item"
+#~ msgstr "עריכת מועמד"
+
+#, fuzzy
+#~| msgid "New candidate Item"
+#~ msgid "New therapist Item"
+#~ msgstr "הוספת מועמד חדש"
+
+#, fuzzy
+#~| msgid "View candidate Item"
+#~ msgid "View therapist Item"
+#~ msgstr "צפייה במועמד"
+
+#, fuzzy
+#~| msgid "Search candidate Item"
+#~ msgid "Search therapist Item"
+#~ msgstr "חיפוש מועמד"
+
+#, fuzzy
+#~| msgid "No candidate Item found"
+#~ msgid "No therapist Item found"
+#~ msgstr "לא נמצאו מועמדים"
+
+#, fuzzy
+#~| msgid "No candidate Item found in Trash"
+#~ msgid "No therapist Item found in Trash"
+#~ msgstr "לא נמצא מועמדים באשפה"
+
+#, fuzzy
+#~| msgid "Parent candidate Item:"
+#~ msgid "Parent therapist Item:"
+#~ msgstr "פריט מועמד אב:"
+
+#~ msgid "Coming Soon!"
+#~ msgstr "בקרוב!"
+
+#, fuzzy
+#~| msgid "Course"
+#~ msgid "Course Hebrew"
+#~ msgstr "קורס"
+
+#~ msgid "Module"
+#~ msgstr "דרגה"
+
+#~ msgid "Thanks"
+#~ msgstr "עמוד תודה"
+
+#, fuzzy
+#~| msgid "Course"
+#~ msgid "Therapist Hebrew"
+#~ msgstr "קורס"
+
+#~ msgid "Therapists Club"
+#~ msgstr "מטפלים מוסמכים"
+
+#~ msgid "Search Therapist"
+#~ msgstr "חפש מטפל"
+
+#~ msgid "Load more Therapists"
+#~ msgstr "מטפלים נוספים"
+
+#~ msgid "Show Newest Articles"
+#~ msgstr "הצג את המאמרים החדשים ביותר"
+
+#~ msgid "Article in"
+#~ msgstr "מאמר ב"
+
+#~ msgid "by Dr. Nader Butto"
+#~ msgstr "מאת ד\"ר נאדר בוטו"
+
+#~ msgid "Publication "
+#~ msgstr "לינק לפרסום"
+
+#~ msgid "Articles in Psychology"
+#~ msgstr "מאמרים בפסיכולוגיה"
+
+#~ msgid "Articles in Physics"
+#~ msgstr "מאמרים בפיזיקה"
+
+#~ msgid "Language:"
+#~ msgstr "שפה:"
+
+#~ msgid "for purchace at"
+#~ msgstr "לרכישה ב"
+
+#~ msgid "Get Inspring Content:"
+#~ msgstr "לקבלת תוכן מעורר השראה!"
+
+#, fuzzy
+#~| msgid "Load more"
+#~ msgid "Learn more >"
+#~ msgstr "טען עוד"
+
+#~ msgid "This week’s recommendation"
+#~ msgstr "המלצת השבוע"
+
+#~ msgid "employee"
+#~ msgstr "עובד"
+
+#~ msgid "Employees"
+#~ msgstr "עובדים"
+
+#~ msgid "employees"
+#~ msgstr "עובדים"
+
+#~ msgid "candidate"
+#~ msgstr "מועמד"
+
+#~ msgid "Candidates"
+#~ msgstr "מועמדים"
+
+#~ msgid "candidates"
+#~ msgstr "מועמדים"
+
+#~ msgid "Receive inspiring content! (Sign up for our newsletter):"
+#~ msgstr "קבל תוכן מעורר השראה! (לניוזלטר)"
+
+#~ msgid "Load More"
+#~ msgstr "הצג עוד"
+
+#~ msgid "Team"
+#~ msgstr "הצוות"
+
+#~ msgid "Full Name"
+#~ msgstr "שם מלא"
+
+#~ msgid "Email"
+#~ msgstr "אימייל"
+
+#~ msgid "Please enter a valid email"
+#~ msgstr " נא הזן אימייל תקין"
+
+#~ msgid "Phone"
+#~ msgstr "טלפון"
+
+#~ msgid "Message"
+#~ msgstr "הודעה"
+
+#~ msgid "Leave Message"
+#~ msgstr "השאר הודעה"
+
+#~ msgid "Main"
+#~ msgstr "ראשי"
+
+#~ msgid "Share and Earn"
+#~ msgstr "שתף ותרוויח!"
+
+#~ msgid "Share Panel Settings"
+#~ msgstr "פאנל שיתוף"
+
+#~ msgid "Progress Panel Settings"
+#~ msgstr "פאנל דירוגים"
+
+#~ msgid "Competition Panel Settings"
+#~ msgstr "פאנל תחרות הגיוס"
+
+#~ msgid "019 Username"
+#~ msgstr "שם משתמש 019"
+
+#~ msgid "019 Password"
+#~ msgstr "סיסמא 019"
+
+#~ msgid "019 API Token"
+#~ msgstr "טוקן 019"
+
+#~ msgid "019 API Token Expiration"
+#~ msgstr "תוקף טוקן 019"
+
+#~ msgid "starter recruiter"
+#~ msgstr "מגייס מתחיל"
+
+#~ msgid "advanced recruiter"
+#~ msgstr "מגייס מתקדם"
+
+#~ msgid "king recruiter"
+#~ msgstr "מלך הגיוסים"
+
+#~ msgid "master recruiter"
+#~ msgstr "מאסטר הגיוסים"
+
+#~ msgid "top recruiter"
+#~ msgstr "מגייס על"
+
+#~ msgid "super recruiter"
+#~ msgstr "מגייס סופר על!!!"
+
+#~ msgid "Recruited"
+#~ msgstr "מגויסים"
+
+#, php-format
+#~ msgid "%s candidates"
+#~ msgstr "%s מועמדים"
+
+#~ msgid "This Month"
+#~ msgstr "החודש"
+
+#~ msgid "Since forever"
+#~ msgstr "מאז ומתמיד"
+
+#, php-format
+#~ msgid "%s recruiters"
+#~ msgstr "%s מגוייסים"
+
+#, php-format
+#~ msgid "start working at %s"
+#~ msgstr "התחלת עבודה ב-%s"
+
+#~ msgid "you are"
+#~ msgstr "את/ה"
+
+#~ msgid "you are soon to become"
+#~ msgstr "אוטוטו אתה הופך ל"
+
+#~ msgid "and then you will receive an additional 20 NIS for each recruitment!"
+#~ msgstr "ואז תקבל 20₪ נוספים לכל גיוס!"
+
+#~ msgid "how do we progress?"
+#~ msgstr "איך מתקדמים?"
+
+#, php-format
+#~ msgid ""
+#~ "you are the best! Just %d more candidates and you become the %s, a little "
+#~ "push and you are there"
+#~ msgstr "אין עליך! רק עוד %d מועמדים ואתה הופך ל%s, פוש קטן ואתה שם"
+
+#, php-format
+#~ msgid "Your publications in %s"
+#~ msgstr "הפרסומים שלך ב%s"
+
+#~ msgid "Phone interview"
+#~ msgstr "ראיונות טלפוניים"
+
+#~ msgid "New candidate"
+#~ msgstr "מועמדים חדשים"
+
+#~ msgid "Frontal interviews"
+#~ msgstr "ראיונות פרונטליים"
+
+#~ msgid "Success recruiters"
+#~ msgstr "גויסו בהצלחה"
+
+#~ msgid "Click per link"
+#~ msgstr "קליקים ללינק"
+
+#~ msgid "Bonuses on the way!"
+#~ msgstr "הבונוסים בדרך!"
+
+#, php-format
+#~ msgid "%s bonus"
+#~ msgstr "בונוס %s"
+
+#, php-format
+#~ msgid "until today we added to your salary %s ₪"
+#~ msgstr "עד היום נוספו לך למשכורת %s ₪"
+
+#~ msgid "A month without a bonus is sucks."
+#~ msgstr "חודש בלי בונוס זה באסה."
+
+#~ msgid "How to increase your bonus?"
+#~ msgstr "איך מגדילים את הבונוס?"
+
+#, php-format
+#~ msgid "recruit at %s"
+#~ msgstr "גויס\\ה בתאריך %s"
+
+#~ msgid "Branch best recruiters"
+#~ msgstr "תותחי הגיוס של המוקד"
+
+#, php-format
+#~ msgid "%d place on the list, you have %s %d rankings in the last week!"
+#~ msgstr "מקום %d ברשימה, %s בשבוע האחרון %d דירוגים!"
+
+#~ msgid "full rating"
+#~ msgstr "לדירוג המלא"
+
+#~ msgid "Your login code is"
+#~ msgstr "קוד האימות שלך הוא"
+
+#~ msgid "you code will be valid for 10 min"
+#~ msgstr "הקוד יהיה תקף למשך 10 דקות"
+
+#~ msgid "Employee not found"
+#~ msgstr "לא נמצא עובד"
+
+#~ msgid "copied"
+#~ msgstr "הועתק!"
+
+#~ msgid "For Use In"
+#~ msgstr "מתאים לשימוש ב-"
+
+#~ msgid "SMS Verification"
+#~ msgstr "אימות סמס"
+
+#~ msgid "Code"
+#~ msgstr "קוד"
+
+#~ msgid "code is invalid or expired"
+#~ msgstr "הקוד אינו חוקי או שפג תוקפו"
+
+#~ msgid "Enter code"
+#~ msgstr "נא להקליד קוד"
+
+#~ msgid "Latest Posts"
+#~ msgstr "פוסטים אחרונים"
+
+#~ msgid "Me"
+#~ msgstr "אני"
+
+#~ msgid "In this level"
+#~ msgstr "בדרגה זו"
+
+#~ msgid "NIS"
+#~ msgstr "ש\"ח"
+
+#~ msgid "For any successful recruitment"
+#~ msgstr "לכל גיוס מוצלח"
+
+#~ msgid "name"
+#~ msgstr "שם"
+
+#~ msgid "rank"
+#~ msgstr "דירוג"
+
+#~ msgid "recruits"
+#~ msgstr "גיוסים"
+
+#~ msgid "Liked it? share it:"
+#~ msgstr "אהבתם? שתפו:"
+
+#~ msgid "Forgot password"
+#~ msgstr "שכחתי סיסמא"
+
+#~ msgid "user"
+#~ msgstr "משתמש"
+
+#~ msgid "Users"
+#~ msgstr "משתמשים"
+
+#, fuzzy
+#~| msgid "Course Type"
+#~ msgid "Resource Type"
+#~ msgstr "סוג הקורס"
+
+#, fuzzy
+#~| msgid "All Course Types"
+#~ msgid "All Resource Types"
+#~ msgstr "כל סוגי הקורסים"
+
+#, fuzzy
+#~| msgid "All Course Types"
+#~ msgid "New Resource Types"
+#~ msgstr "כל סוגי הקורסים"
+
+#, fuzzy
+#~| msgid "All Course Types"
+#~ msgid "Add New Resource Types"
+#~ msgstr "כל סוגי הקורסים"
+
+#, fuzzy
+#~| msgid "All Course Types"
+#~ msgid "Edit Resource Types"
+#~ msgstr "כל סוגי הקורסים"
+
+#, fuzzy
+#~| msgid "All Course Types"
+#~ msgid "View Resource Types"
+#~ msgstr "כל סוגי הקורסים"
+
+#~ msgid "Courses"
+#~ msgstr "קורסים"
+
+#~ msgid "courses"
+#~ msgstr "קורסים"
+
+#~ msgid "Wants to meet"
+#~ msgstr "נשמע ששווה להיפגש"
+
+#~ msgid "What we wrote"
+#~ msgstr "שווה קיראה"
+
+#~ msgid "Wants to get courses list by mail"
+#~ msgstr "שלחו לי את קטלוג הקורסים"
+
+#~ msgid "To purchase the course"
+#~ msgstr "נלך על הקורס הזה"
+
+#~ msgid "To purchase the system"
+#~ msgstr "נלך על כל המערכת"
+
+#~ msgid "To go to the next course"
+#~ msgstr "לעבור לקורס הבא"
+
+#~ msgid "I Want"
+#~ msgstr "אני רוצה"
+
+#~ msgid "Projects"
+#~ msgstr "פרוייקטים"
