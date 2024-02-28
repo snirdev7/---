@@ -345,7 +345,7 @@ h1 {
   right: 0;
   background: rgba(52, 97, 57, 0.85);
   text-align: center;
-  padding: 10px;
+  padding: 10px 0px;
 }
 .home-products .box:hover h3 {
   bottom: 0;
