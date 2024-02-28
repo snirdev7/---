@@ -4,7 +4,7 @@ Theme URI: http://underscores.me/
 Author: Kidum Sheli - snir
 Author URI: https://m-p.co.il/
 Description: Description
-Version: 1.0.0
+Version: 1.0.1
 Tested up to: 5.4
 Requires PHP: 5.6
 License: GNU General Public License v2 or later
@@ -345,7 +345,7 @@ h1 {
   right: 0;
   background: rgba(52, 97, 57, 0.85);
   text-align: center;
-  padding: 10px 0px;
+  padding: 10px;
 }
 .home-products .box:hover h3 {
   bottom: 0;
