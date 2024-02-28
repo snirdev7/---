@@ -92,11 +92,6 @@ Text Domain: live
   src: url("assets/fonts/heebo-v21-hebrew_latin-900.eot"); /* IE9 Compat Modes */
   src: url("assets/fonts/heebo-v21-hebrew_latin-900.eot?#iefix") format("embedded-opentype"), url("assets/fonts/heebo-v21-hebrew_latin-900.woff2") format("woff2"), url("assets/fonts/heebo-v21-hebrew_latin-900.woff") format("woff"), url("assets/fonts/heebo-v21-hebrew_latin-900.ttf") format("truetype"), url("assets/fonts/heebo-v21-hebrew_latin-900.svg#Heebo") format("svg"); /* Legacy iOS */
 }
-@media screen and (min-width: 576px) {
-  home-slogan {
-    padding: 15px 0;
-  }
-}
 @media screen and (min-width: 992px) {
   .site-header .main-navigation {
     position: relative;
@@ -199,7 +194,7 @@ Text Domain: live
     height: 100%;
   }
   .home-products .box h3 {
-    padding: 10px 0;
+    padding: 10px;
   }
   .home-products .box img {
     max-height: 250px;
@@ -1970,11 +1965,6 @@ h1 {
     height: 484px;
   }
 }
-@media screen and (min-width: 576px) {
-  home-slogan {
-    padding: 15px 0;
-  }
-}
 @media screen and (min-width: 992px) {
   .site-header .main-navigation {
     position: relative;
@@ -2077,7 +2067,7 @@ h1 {
     height: 100%;
   }
   .home-products .box h3 {
-    padding: 10px 0;
+    padding: 10px;
   }
   .home-products .box img {
     max-height: 250px;
